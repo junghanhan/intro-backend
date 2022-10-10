@@ -20,6 +20,10 @@ app.get('/', (req, res) => {
   res.send('Node.js Server is live!');
 });
 
+// serving static resources
+app.use(express.static('public'));
+
+// API endpoints
 app.use('/api', apiRouter);
 
 export default app;
