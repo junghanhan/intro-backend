@@ -1,8 +1,10 @@
+import './db.js'
 import express from 'express';
 import cookieParser from 'cookie-parser';
 import compression from 'compression';
 import morgan from 'morgan';
 import cors from 'cors';
+import apiRouter from './routes/api-router.js';
 
 const app = express();
 
@@ -18,5 +20,11 @@ app.use(cors());
 app.get('/', (req, res) => {
   res.send('Node.js Server is live!');
 });
+
+// serving static resources
+app.use(express.static('public'));
+
+// API endpoints
+app.use('/api', apiRouter);
 
 export default app;
