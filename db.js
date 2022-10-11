@@ -25,3 +25,6 @@ mongoose.connection.on("error", (err) => {
 mongoose.connection.on("disconnected", () => {
   console.log("Mongoose disconnected");
 });
+
+// create mongoose schema and model
+import "./models/skill-schema.js";
