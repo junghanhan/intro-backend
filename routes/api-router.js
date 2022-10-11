@@ -1,6 +1,7 @@
 import express from "express";
 import { getAllSkills } from "../controllers/skill-api-controller.js";
 import { getAllProjects } from "../controllers/project-api-controller.js";
+import { sendEmail } from "../controllers/contact-api-controller.js"
 
 const router = express.Router();
 
@@ -11,6 +12,10 @@ router
 router
   .route("/projects")
   .get(getAllProjects);
+
+router
+  .route("/contact")
+  .post(sendEmail);
 
 
 export default router;

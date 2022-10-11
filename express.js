@@ -4,6 +4,7 @@ import cookieParser from 'cookie-parser';
 import compression from 'compression';
 import morgan from 'morgan';
 import cors from 'cors';
+import nodeMailer from 'nodemailer';
 import apiRouter from './routes/api-router.js';
 
 const app = express();
