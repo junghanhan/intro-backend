@@ -29,3 +29,4 @@ mongoose.connection.on("disconnected", () => {
 // create mongoose schema and model
 import "./models/skill-schema.js";
 import "./models/project-schema.js";
+import "./models/contact-schema.js";
