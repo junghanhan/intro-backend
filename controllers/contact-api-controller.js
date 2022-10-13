@@ -12,13 +12,12 @@ const sendEmail = (sender, receiver, contact) => {
   };
 
   const transporter = nodeMailer.createTransport({
-    port: 465,
+    port: 587,
     host: process.env.HOST,
     auth: {
       user: process.env.EMAIL,
       pass: process.env.PASSWORD
-    },
-    secure: true
+    }    
   });
 
   transporter.sendMail(mailData, (error, info) => {
