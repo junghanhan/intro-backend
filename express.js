@@ -25,6 +25,7 @@ app.get('/', (req, res) => {
 });
 
 // serving static resources
+// images/<image file>
 app.use(express.static('public'));
 
 // API endpoints
