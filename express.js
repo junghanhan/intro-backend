@@ -17,7 +17,7 @@ app.use(cookieParser());
 app.use(compression());
 app.use(morgan('dev'));
 app.use(cors());
-app.use(rateLimit()); // 5 req. per min
+app.use(rateLimit({max:50})); // per minute
 
 // Routing
 app.get('/', (req, res) => {
