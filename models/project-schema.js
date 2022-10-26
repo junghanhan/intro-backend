@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 // init schema
+// TODO: URLs should use regular expression to check if it is a valid URL address.
 const projectSchema = new mongoose.Schema({  
   name: {
     type: String,
