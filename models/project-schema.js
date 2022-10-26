@@ -7,12 +7,22 @@ const projectSchema = new mongoose.Schema({
     required: true,
     trim: true    
   },
+  summary: {
+    type: String,
+    required: true,
+    trim: true    
+  },
   desc: {
     type: String,
     required: true,
     trim: true    
   },
-  imageUrl: {
+  imageUrls: {
+    type: [String],
+    required: true,
+    trim: true    
+  },
+  linkUrl: {
     type: String,
     required: true,
     trim: true    
