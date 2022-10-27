@@ -20,8 +20,7 @@ const projectSchema = new mongoose.Schema({
   },
   imageUrls: {
     type: [String],
-    required: true,
-    trim: true    
+    required: true,    
   },
   linkUrl: {
     type: String,
