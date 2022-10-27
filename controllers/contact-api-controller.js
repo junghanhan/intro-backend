@@ -1,5 +1,5 @@
-import nodeMailer from 'nodemailer';
-import mongoose from 'mongoose';
+import nodeMailer from "nodemailer";
+import mongoose from "mongoose";
 
 const contactSchema = mongoose.model("contact");
 

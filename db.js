@@ -9,19 +9,19 @@ mongoose.connect(dbURI, {
   useUnifiedTopology: true,
 });
 
-// defining event 'connected' handler
+// defining event "connected" handler
 mongoose.connection.on("connected", () => {
   console.log("Mongoose connected to " + dbURI);
 });
 
-// defining event 'error' handler
+// defining event "error" handler
 // print error message to console
 // if there is a problem connecting
 mongoose.connection.on("error", (err) => {
   console.log("Mongoose connection error:" + err);
 });
 
-// defining event 'disconnected' handler
+// defining event "disconnected" handler
 mongoose.connection.on("disconnected", () => {
   console.log("Mongoose disconnected");
 });
