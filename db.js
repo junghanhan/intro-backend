@@ -30,3 +30,4 @@ mongoose.connection.on("disconnected", () => {
 import "./models/skill-schema.js";
 import "./models/project-schema.js";
 import "./models/contact-schema.js";
+import "./models/education-schema.js";
