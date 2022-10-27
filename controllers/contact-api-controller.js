@@ -13,10 +13,10 @@ const sendEmail = (sender, receiver, contact) => {
 
   const transporter = nodeMailer.createTransport({
     port: 587,
-    host: process.env.HOST,
+    host: process.env.SMTP_SERVER,
     auth: {
-      user: process.env.EMAIL,
-      pass: process.env.PASSWORD
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASSWORD
     }    
   });
 
@@ -37,10 +37,10 @@ const handleReceivedContact = async (req, res) => {
     // as well as not sending an email.
     let contact = await contactSchema.create(req.body);    
     
-    sendEmail(contact.email, process.env.EMAIL, contact);
+    sendEmail(contact.email, process.env.EMAIL_USER, contact);
     // send the copy of the email to the sender
     if(contact.sendCopy) {
-      sendEmail(process.env.EMAIL, contact.email, contact);
+      sendEmail(process.env.EMAIL_USER, contact.email, contact);
     }
 
     res.status(200).send("Mail sent");

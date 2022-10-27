@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 // connect to locally running MongoDB instance
-let dbURI = "mongodb://localhost:27017/intro_db";
+let dbURI = `${process.env.MONGODB_HOST}/intro_db`;
 
 // connects to the DB
 mongoose.connect(dbURI, {
