@@ -5,7 +5,7 @@ const educationModel = mongoose.model("education");
 
 const getAllEducations = async (req, res) => {
   try {
-    let educations = await educationModel.find({}, "", {sort: {endYear: 1}}).exec();
+    let educations = await educationModel.find({}, "", {sort: {endYear: -1}}).exec();
     res.status(200).json(educations);
   } catch(err) {
     res.status(400).send("Bad Request");
