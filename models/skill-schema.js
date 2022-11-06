@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 // init schema
+// TODO: should implement POST endpoint for adding and updating data by using this schema
 const skillSchema = new mongoose.Schema({  
   name: {
     type: String,

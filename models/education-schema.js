@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 // init schema
+// TODO: should implement POST endpoint for adding and updating data by using this schema
 // TODO: URLs should use regular expression to check if it is a valid URL address.
 const educationSchema = new mongoose.Schema({  
   schoolName: {

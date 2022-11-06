@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 
 
 // init schema
+// TODO: should implement POST endpoint for adding and updating data by using this schema
 const contactSchema = new mongoose.Schema({  
   firstName: {
     type: String,    
