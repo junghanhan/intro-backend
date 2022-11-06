@@ -9,6 +9,10 @@ const projectSchema = new mongoose.Schema({
     required: true,
     trim: true    
   },
+  techs: {
+    type: [String],
+    required: true
+  },
   summary: {
     type: String,
     required: true,
@@ -23,10 +27,9 @@ const projectSchema = new mongoose.Schema({
     type: [String],
     required: true,    
   },
-  linkUrl: {
-    type: String,
-    required: true,
-    trim: true    
+  links: {
+    type: Object,
+    required: true    
   }
 });
 
