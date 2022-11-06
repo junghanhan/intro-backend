@@ -17,6 +17,9 @@ const skillSchema = new mongoose.Schema({
     type: String,
     required: true,
     trim: true    
+  },
+  relevantCourses: {
+    type: [String]
   }
 });
 
