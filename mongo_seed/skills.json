@@ -1,0 +1,80 @@
+[	
+	{      
+      "name": "JavaScript",
+      "desc":"Since ICS program at Camosun College mainly focuses on Web Development, most courses required me to get good at JavaScript. Throughout four courses, I could solidify my JavaScript knowledge. Although I already know some basics of JavaScript before I went to Camosun College, there have been a lot of changes to JavaScript (e.g., ES6+), so I could learn many useful modern techniques through the courses at Camosun College.",
+      "imageUrl":"js.png",
+	  "relevantCourses":["Web Scripting","Web Applications","Web Services","Special Topics in Computing"]
+    },
+	{      
+      "name": "React.js",
+      "desc":"I first learned React.js from ICS program at Camosun College. Since React.js is the dominant web front-end framework for now, ICS program at Camosun College focuses on teaching React.js through their courses. However, if I am going to have to learn the other front-end frameworks such as Vue.js, I think it would not be very difficult to do so since they have the similar features and toolsets.",
+      "imageUrl":"reactjs.png",
+	  "relevantCourses":["Web Applications","Web Services"]
+    },
+	{      
+      "name": "Next.js",
+      "desc":"I learned Next.js from ICS program at Camosun College. In the course, I learned Next.js can be used for server side rendering of React.js application to improve some features (e.g., Fast initial page loading and SEO).",
+      "imageUrl":"nextjs.png",
+	  "relevantCourses":["Web Services"]
+    },
+	{      
+      "name": "Express.js",
+      "desc":"I learned Express.js from ICS program at Camosun College. In the course, I learned how Express.js can facilitate Node.js in developing back-end features by providing a variety of middleware functionalities. I realized how Express.js makes it simple to implement RESTful web services compared to other back-end frameworks.",
+      "imageUrl":"expressjs.png",
+	  "relevantCourses":["Web Services"]
+    },
+    {      
+      "name": "C, C++",
+      "desc":"C is the very first programming language I learned. In addition, while I was pursuing my Ph.D., I needed to understand and modify a linux wireless kernel driver called 'ath9k', which is a driver supporting Qualcomm Atheros 802.11n PCI/PCI-E chips. Since linux kernel is mostly written by C, I became familiarized with C through that period. In terms of C++, I have experience in modifying the well-known network simulator called NS-3 as well as writing NS-3 scripts which are written by C++ to run simulations for my Ph.D. thesis, and thus got used to it to some extent.",
+      "imageUrl":"C_CPP.png",
+	  "relevantCourses":[]
+    },
+    {      
+      "name": "C#",
+      "desc":"It was during my bachelor years that I first learned basic C# syntax. On top of that, I became familiarized with C# in 'Gaming and Graphics Concepts' course at Camosun College. In the course, I learned basic game development with Unity and experienced writing C# scripts to implement game objects.",
+      "imageUrl":"csharp.png",
+	  "relevantCourses":["Gaming and Graphics Concepts"]
+    },    
+	{      
+      "name": "Python",
+      "desc":"Although I had self-studied basic Python syntax, the courses at Camosun College made me gain practical knowledge of Python. Particularly in 'Capstone Project' course, the project that I worked on was an algorithm intensive project, so I improved my Python skills greatly. For the project, I had to manipulate geometric objects with Python to convert raster graphics to vector. In addition to that, I experienced training Deep Learning models in Python and trying them out to implement a feature that recognizes and extracts certain patterns on hand-drawn maps.",
+      "imageUrl":"python.png",
+	  "relevantCourses":["Network Programming", "Capstone Project"]
+    },    
+	{      
+      "name": "SQL DB",
+      "desc":"I had already been familiar with Oracle Database before I took the courses at Camosun College. 'Database Concepts' course at Camosun College was a good review to me because it dealt with basic SQL syntax and database concepts. 'Database Systems Management' course at Camosun College dealt with the tasks that DBAs are responsible, so it was quite new and interesting to me. In 'Applied Computing Project' course at Camosun College, I experienced working on a project that uses a traditional LAMP (Linux, Apache, MySQL, and PHP) stack. Through this course, I got an opportunity to model and implement a relational database for an online shopping website.",
+	  "imageUrl":"sql.png",
+      "relevantCourses":["Database Concepts","Database Systems Management","Applied Computing Project"]
+    },    
+	{      
+      "name": "NoSQL DB",
+      "desc":"I learned NoSQL databases through three courses at Camosun College. Specifically, I learned MongoDB and Amazon DynamoDB. In 'Database Systems Management' course, I learned the basic concept of NoSQL databases like MongoDB. In 'Web Services' course, I experienced implementing a RESTful web service with MongoDB. In 'Special Topics in Computing' course, I got an opportunity to use Amazon DynamoDB as a serverless service by AWS.",
+	  "imageUrl":"nosql.png",
+      "relevantCourses":["Database Systems Management","Web Services","Special Topics in Computing"]
+    },    	    
+	{      
+      "name": "PHP",
+      "desc":"In 'Applied Computing Project' course at Camosun College, I had a chance to work on a project that uses a traditional LAMP (Linux, Apache, MySQL, and PHP) stack. Through this course, I experienced implementing an online shopping website with PHP.",
+	  "imageUrl":"php.png",
+      "relevantCourses":["Applied Computing Project"]
+    },    	
+	{      
+      "name": "Java",
+      "desc":"During my bachelor years, I experienced working on an Android application project when Java was the official programming language for Android application development. Thus, I had been quite familiar with Java before I went to Camosun College. Through the courses at Camosun College, I was able to review the basics of Java.",
+	  "imageUrl":"java.png",
+      "relevantCourses":["Algorithms and Programming", "Algorithms and Data Structure"]
+    },    	
+	{      
+      "name": "Swift",
+      "desc":"During my bachelor years, I learned Objective-C as the main programming language for iOS development. Thus, it was the first time to learn Swift for developing iOS applications at Camosun College. Through the course at Camosun College, I had an opportunity to build iOS applications such as a To Do List application, Games, and an Augmented Reality (AR) application.",
+	  "imageUrl":"swift.png",
+      "relevantCourses":["Mobile App Development"]
+    },
+	{      
+      "name": "AWS",
+      "desc":"In 'Special Topics in Computing' course at Camosun College, I learned many cloud services in AWS which are very useful and practical for developing web applications. The main cloud services I had a chance to use were EC2, Lambda, RDS, DynamoDB, API Gateway, S3, etc. In particular, the concept of AWS serverless architecture was interesting.",
+	  "imageUrl":"aws.png",
+      "relevantCourses":["Special Topics in Computing"]
+    }
+]

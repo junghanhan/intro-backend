@@ -1,0 +1,18 @@
+[
+    {      
+      "schoolName": "Yonsei University",
+	  "startYear": 2012,
+	  "endYear": 2020,
+	  "qualification": "Doctor of Philosophy in Computer Science",	  
+      "desc":"During my undergraduate years studying computer science, my favorite class was computer network. However, the class only covered fundamentals in computer network. At the time, I was intrigued by more advanced topics such as wireless network. Therefore, I decided to attend graduate school and join a Mobile Networking lab in Yonsei University. \n\nPursuing Ph.D. degree was a lot harder than I expected. I think the most valuable thing I learned during that time was not the knowledge about wireless networking but the attitude to figure out a solution with patience.",
+      "imageUrl":"yonsei_university.png"
+    },    
+	{      
+      "schoolName": "Camosun College",
+	  "startYear": 2020,
+	  "endYear": 2022,
+	  "qualification": "Information and Computer Systems Technology Diploma",	  
+      "desc":"Although I received a Ph.D. degree in Computer Science, what I had really wanted to do was developing tangible software and applications rather than research. In addition, I had a very good experience in Victoria when I first visited Canada more than ten years ago. Thus, the desire to learn practical software development skills and the good memories of Victoria brought me to Camosun College, not to mention the fact that I will be legally allowed to work in Canada after I graduate from college in Canada. \n\nSince I had mostly studied the theoretical part of Computer Science, Information and Computer Systems (ICS) program at Camosun College was more than fun. Through this program, I could catch up with modern software development technologies I had not been able to keep up with while I was pursuing Ph.D. degree",
+      "imageUrl":"camosun_college.png"
+    }
+]
