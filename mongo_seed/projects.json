@@ -1,9 +1,9 @@
 [
 	{      
       "name": "Portfolio website built with modern web technologies",
-	  "techs": ["React.js", "Next.js", "Express.js", "MongoDB", "Node.js", "JavaScript"], 
+	  "techs": ["React.js", "Next.js", "Express.js", "MongoDB", "Node.js", "JavaScript", "AWS EC2"], 
 	  "summary": "A personal portfolio website built with both frontend and backend modern web technologies",
-      "desc":"Although a personal portfolio website can be easily built as a static web page by only using HTML, CSS, and JavaScript, this website is built with modern web technologies. The main purpose of this project was to review what I learned about web technologies from Camosun College.",
+      "desc":"Although a personal portfolio website can be easily built as a static web page by only using HTML, CSS, and JavaScript, this website is built with frontend and backend modern web technologies. The main purpose of this project was to review what I learned about web technologies from Camosun College.",
       "imageUrls":["portfolio_about.PNG", "portfolio_education.PNG", "portfolio_skills.PNG", "portfolio_projects.PNG", "portfolio_contact.PNG"],
 	  "links":[{"linkName":"Frontend repo", "linkUrl":"https://github.com/junghanhan/intro-frontend"}, {"linkName":"Backend repo", "linkUrl":"https://github.com/junghanhan/intro-backend"}]
     },
@@ -14,6 +14,14 @@
       "desc":"Historical maps can be a useful source of knowledge. They can provide information for analyzing geographic attributes for a specific time period. However, the scanned hand-written historical maps are raster images which are difficult to use for analysis. In this project, I implemented a software that takes the scanned hand-written historical maps and transforms them into a vector file format called 'Shapefile', which are analysis-ready forms of the maps.",
       "imageUrls":["FMS_tool.PNG","original_map.png","processed_map.png","keras-ocr.png"],
 	  "links":[{"linkName":"Project repo", "linkUrl":"https://github.com/junghanhan/forest-map-segmentation"}]
+    },
+    {      
+      "name": "The Cup Emporium: E-Commerce website",
+	  "techs": ["JavaScript", "PHP", "MySQL", "Stripe"], 
+	  "summary": "E-Commerce website for local business selling hand made ceramic cups and seeking to open distribution to North American market.",
+      "desc":"E-Commerce website for local business selling hand made ceramic cups and seeking to open distribution to North American market. This is a group project of ICS-199 course at Camosun College. The goal of the project is to design and implement a cup selling website with landing page, order history page, shopping cart page, user account management and Stripe payment processing.",
+      "imageUrls":["cup_emporium_landing_page.PNG","cup_emporium_catalogue.PNG","cup_emporium_shopping_cart.PNG","cup_emporium_checkout.PNG"],
+	  "links":[{"linkName":"Project repo", "linkUrl":"https://github.com/junghanhan/cup-emporium"}]
     },
     {      
       "name": "IEEE 802.11 (WiFi networking protocol) Non-intrusive throughput estimator",
